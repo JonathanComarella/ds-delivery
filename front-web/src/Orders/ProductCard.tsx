@@ -25,8 +25,6 @@ function ProductsCard( {product, onSelectProduct, isSelected }: Props) {
          <div className="order-card-description">
              <h3>Descrição</h3>
              <p>
-             Descrição
-
              {product.description}
              </p>
          </div>
